@@ -12,6 +12,7 @@ class HowHelp extends Component {
          this.infoMaterial = React.createRef();
          this.infoVoluntary = React.createRef();
     }
+/*nombre de la referencia.current.value*/
 
     showInfo = (element,src) =>{
         this.bankInfo.current.style.display = "none";

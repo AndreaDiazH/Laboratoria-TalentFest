@@ -29,7 +29,6 @@ render() {
         {projects.map((item, index) =>{
           return(
           <Card key={index} className= "dinamicCards col-md-4 col-sm-12 col-lg-4">
-            
             <Card.Img variant="top" src={imgPrueba} />
             <span className="tags">{item.typeProject}</span>
               <Card.Body>

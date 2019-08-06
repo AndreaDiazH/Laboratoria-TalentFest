@@ -18,7 +18,7 @@ class SeeMore extends Component {
 
 render(){
     return(
-    <div>
+    
         <div className="seeMorePage">
             <div className= "contactTitle">
                 <div className="upTitle"> 
@@ -30,27 +30,24 @@ render(){
             </div>
             <div className= "row">
                 <div className= "row col-md-12 col-sm-12 col-lg-12">
-                <div className= "row col-md-6 col-sm-12 col-lg-6 formatSquare">
                         <div className= "col-md-6 col-sm-12 col-lg-6 benefitStadistic">
                             <img alt="beneficiados" src={bluePrint} />
                             <p className="upTitleDark">INFRAESTRUCTURA</p>
                             <p className="numberData">BENEFICIADOS: {this.number}</p>
                         </div>
-                    </div>
-                    <div className="row col-md-6 col-sm-12 col-lg-6 contactInfoTxt">
-                        <div className="row">
-                            <div className= "col-md-12 col-sm-12 col-lg-12">
-                                {this.describeProyect}
-                            </div>
+                    <div className="col-md-6 col-sm-12 col-lg-6 contactInfoTxt">
+                        <div className= "col-md-12 col-sm-12 col-lg-12">
+                            {this.describeProyect}
                         </div>
                     </div>
                 </div>
             </div>
+            <div className="row col-md-12 col-sm-12 col-lg-12 proyectPic">
+                <img alt="portada" src={dummy2} />
+            </div>
         </div>
-        <div className="row col-md-12 col-sm-12 col-lg-12 proyectPic">
-            <img alt="portada" src={dummy2} />
-        </div>
-    </div>
+       
+  
     );
 }
 

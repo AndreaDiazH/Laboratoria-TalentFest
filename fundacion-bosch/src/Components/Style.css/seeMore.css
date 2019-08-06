@@ -4,7 +4,7 @@
 
 .seeMorePage{
     background-color: #FFF;
-    margin: 7rem;
+    /*margin: 7rem;*/
 }
 .upTitle{
     color: #838D8F;
@@ -60,5 +60,12 @@
 @media only screen and (max-width: 426px){
     .row {
         max-width: 100%;
+    }
+
+    .benefitStadistic{
+        text-align: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 0rem;
     }
 }
