@@ -4,6 +4,7 @@ import "./Style.css/cardsProyect.css";
 /*import dummypic from './resources/dummypic.png';*/
 
 class ProyectCards extends Component {
+  
   state = {
     projects: []
   };
@@ -23,13 +24,12 @@ class ProyectCards extends Component {
 render() {
   const { projects } = this.state;
   console.log(projects)
-  const imgPrueba = "https://fotoentrega.net/laboratoria/garage_hub.png"
     return(
       <div className= "projects">
         {projects.map((item, index) =>{
           return(
           <Card key={index} className= "dinamicCards col-md-4 col-sm-12 col-lg-4">
-            <Card.Img variant="top" src={imgPrueba} />
+            <Card.Img variant="top" src={item.picture} />
             <span className="tags">{item.typeProject}</span>
               <Card.Body>
                 <Card.Title>{item.nameProject}</Card.Title>
