@@ -8,24 +8,29 @@ import LastProyects from "./Components/LastProyects";
 import HowHelp from "./Components/HowHelp";
 import ContactUs from "./Components/ContactUs";
 import FooterApp from "./Components/FooterApp";
+/*import Prueba from "./Components/Prueba";*/
+import SeeMore from "./Components/SeeMore";
+
 
 class App extends Component {
   render() {
     return (
     <React.Fragment>
 
-     <NavBar />
-     <Video />
-     <Who />
+     
      <LastProyects />
      <HowHelp />
      <ContactUs /> 
      <FooterApp />
-
+     <SeeMore />
+      
     </React.Fragment>
     )
   }
 }
 
- 
+ /* <NavBar />
+     <Video />
+     <Who />
+ <Prueba />*/
 export default App;

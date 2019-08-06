@@ -1,5 +1,5 @@
 .pageFooter{
-    height: 13rem;
+    /*height: 13rem;*/
     background-color: #3c3d41;
 }
 
@@ -35,7 +35,8 @@
 .boschTxt p {
     margin-top: 0rem;
     font-size: .7rem;
-    margin-left: 9rem;
+   /* margin-left: 9rem;*/
+    text-align: center;
     font-family: 'PT Serif', serif;
     opacity: 0.5;
 }
